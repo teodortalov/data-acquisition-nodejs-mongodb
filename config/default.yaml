@@ -1,5 +1,5 @@
 Fetcher:
-    url: 'http://192.168.1.80/?command=dataquery&uri=dl:FGCU&format=json&mode=most-recent&p1=1'
+    url: 'http://69.88.165.47/?command=dataquery&uri=dl:FGCU&format=json&mode=most-recent&p1=1'
     timePeriod: 1000
 Db:
     address: mongodb://localhost/solarplant
