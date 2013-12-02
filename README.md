@@ -1,6 +1,6 @@
 <h1 id="data-acquisition-nodejs-mongodb">Solar Cloud - Florida Gulf Coast Unviersity</h1>
-<h2>Data Acquisition NodeJS MongoDB</h2>
-<p>Remote Data Acquisition from a Solar Plant with MongoDB and NodeJS</p>
+<h2>Data Acquisition NodeJS, MongoDB and CR1000 datalogger</h2>
+
 <h2 id="Requirements">Requirements:</h2>
 <ul>
 <li>nodejs</li>
