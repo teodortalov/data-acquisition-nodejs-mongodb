@@ -17,7 +17,7 @@
 <p>Install dependencies</p>
 <p><pre><code>sudo npm install</code></pre></p>
 <p>Install js-yaml (<a href="https://github.com/teodortalov/data-acquisition-nodejs-mongodb/issues/1">see issue #1</a>)</p>
-<p><pre><code>npm js-yaml</code></pre></p>
+<p><pre><code>npm install js-yaml</code></pre></p>
 <p>Run Fetcher</p>
 <p><pre><code>node fetcher</code></pre></p>
 <p>&nbsp;</p>
