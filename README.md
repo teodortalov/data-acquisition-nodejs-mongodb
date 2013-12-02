@@ -36,7 +36,7 @@
 </code></pre>
 
 <p>You can access the application at:</p>
-<pre><code>your-houst.com:5678
+<pre><code>your-host.com:5678
 </code></pre>
 
 <h3>MongoDB shortcuts</h3>
