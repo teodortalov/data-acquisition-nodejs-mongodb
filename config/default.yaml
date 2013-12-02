@@ -2,5 +2,5 @@ Fetcher:
     url: 'http://69.88.165.47/?command=dataquery&uri=dl:FGCU&format=json&mode=most-recent&p1=1'
     timePeriod: 1000
 Db:
-    address: mongodb://localhost/solarplant
-    mapping: '["voltage1"]'
+  address: mongodb://localhost/solarplant
+  mapping: '["SEVolt_Avg", "SEVolt_2_Avg", "SEVolt_3_Avg", "SEVolt_2_Tot", "SEVolt_3_Tot", "SEVolt_4_Avg(2)", "SEVolt_4_Avg(3)", "SEVolt_4_Avg(4)", "SEVolt_4_Avg(5)", "SEVolt_4_Avg(6)", "SEVolt_4_Avg(7)", "SEVolt_4_Avg(8)", "SEVolt_4_Avg(9)", "SEVolt_4_Avg(10)", "SEVolt_4_Avg(11)", "SEVolt_4_Avg(12)", "SEVolt_4_Avg(13)", "PTemp_C_Avg"]'
