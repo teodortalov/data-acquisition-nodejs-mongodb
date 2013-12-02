@@ -13,3 +13,4 @@ Dependencies:
 Installation:
 
  `sudo  gem install genghisapp`
+https://github.com/bobthecow/genghis
