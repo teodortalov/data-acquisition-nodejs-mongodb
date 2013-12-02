@@ -3,6 +3,7 @@ const http = require('http'),
 	mongoose = require('mongoose'),
 	readingsModel = require('./models/readings.js').ReadingsModel;
 
+  config = JSON.stringify(config);
   mongoose.connect(config.Db.address);
 
   mongoose.connection.on('error', function(err){
@@ -42,7 +43,7 @@ function remapColumns( d ){
 }
 
 function writeToDb(data){
- var data = JSON.parse(data);
+// var data = JSON.parse(data);
 
 	for( var k in data.data ){
 
