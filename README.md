@@ -21,6 +21,8 @@
 <p>Run Fetcher</p>
 <p><pre><code>node fetcher</code></pre></p>
 <p>&nbsp;</p>
+<p>Run fetcher in background</p>
+<pre><code>nohup node fetcher&</code></pre>
 <h2 id="tools">Tools:</h2>
 <h3 id="install-genghis-to-manage-mongodb-data">Install Genghis to manage MongoDB data</h3>
 <p>See installation instructions at: https://github.com/bobthecow/genghis</p>
