@@ -3,7 +3,6 @@ const http = require('http'),
 	mongoose = require('mongoose'),
 	readingsModel = require('./models/readings.js').ReadingsModel;
 
-  config = JSON.stringify(config);
   mongoose.connect(config.Db.address);
 
   mongoose.connection.on('error', function(err){
@@ -13,7 +12,7 @@ const http = require('http'),
 function fetch(){
  
 	http.get(config.Fetcher.url, fetchResult).on('error', function(e) {
-	  console.log("Got error: " + e.message)
+//	  console.log("Got error: " + e.message)
 	});
 }
 
@@ -55,9 +54,9 @@ function writeToDb(data){
 		model.save(function(err){
 		 
 		  readingsModel.ensureIndexes(function(){
-		      console.log('ensure index');
+//		      console.log('ensure index');
 		  });
-		  console.log(d);
+//		  console.log(d);
 		  if(err) throw err;
 		});
 	}
