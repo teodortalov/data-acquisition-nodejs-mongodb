@@ -43,7 +43,12 @@ function remapColumns( d ){
 }
 
 function writeToDb(data){
-// var data = JSON.parse(data);
+  try {
+    var data = JSON.parse(data);
+  } catch (e) {
+    return false;
+  }
+
 
 	for( var k in data.data ){
 
