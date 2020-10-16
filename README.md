@@ -1,4 +1,4 @@
-<h1 id="data-acquisition-nodejs-mongodb">Solar Cloud - Florida Gulf Coast Unviersity</h1>
+<h1 id="data-acquisition-nodejs-mongodb">Solar Cloud</h1>
 <h2>Data Acquisition NodeJS, MongoDB and CR1000 datalogger</h2>
 
 <h2 id="Requirements">Requirements:</h2>
